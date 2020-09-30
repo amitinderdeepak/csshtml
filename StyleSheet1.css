@@ -1,0 +1,82 @@
+﻿@media (min-width:600px) {
+    body {
+        background-color: aqua;
+    }
+}
+
+@media(max-width:599px) {
+    body {
+        background-color: aquamarine;
+    }
+}
+
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+    #container > div {
+        background-color: blanchedalmond;
+        font-size: 18px;
+        margin: 5px;
+        padding: 5px;
+        width: 100px;
+    }
+
+#head {
+    background-color: antiquewhite;
+    width: auto;
+    height: auto;
+    border: 2px solid yellow;
+}
+
+#h {
+    color: blue;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.point {
+    color: darkblue;
+}
+
+a {
+    color: blue
+}
+
+ul {
+    color: blue;
+}
+
+button {
+    width: 50;
+    height: 30px;
+    text-align: right;
+    background-color: blue;
+    color: yellow;
+}
+
+    button:hover {
+        background-color: blueviolet;
+    }
+
+#form {
+    background-color: yellow;
+}
+
+#grid {
+    background-color: green;
+    display: grid;
+    padding: 20px;
+    grid-column-gap: 20px;
+    grid-row-gap: 10px;
+    grid-template-columns: 200px 200px auto;
+}
+
+.grid-item {
+    background-color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+}

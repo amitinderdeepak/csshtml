@@ -1,0 +1,99 @@
+
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Responsive Design</title>
+    <meta name="viewport" width="device-width" initial-scale="1.0" />
+    <style>
+
+        @media (min-width:600px) {
+            body {
+                background-color: rgb(218, 250, 215);
+            }
+        }
+
+            @media (max-width:599px) {
+                 body {
+                    background-color: aquamarine;
+                 }
+            }
+
+            #container {
+                display: flex;
+                flex-wrap: wrap;
+            }
+
+                #container > div {
+                    background-color: blueviolet;
+                    margin: 20px;
+                    padding: 20px;
+                    font-size: 20px;
+                    width:200px;
+                    border: 2px dotted black;
+                    }
+            #grid {
+                background-color:blueviolet;
+                padding:5px;
+                display: grid;
+                grid-column-gap: 3px;
+                grid-row-gap: 3px ;
+                grid-template-columns: 200px 200px auto;
+
+            }
+
+            .grid-item {
+                background-color:antiquewhite;
+                font-size: 20px;
+               
+
+            }    
+    </style>
+</head>
+<body>
+    <h1>Responsive Design</h1>
+    <h2>1. Viewport</h2>
+    <h2>2. Media Query</h2>
+    <h2>3. Flexbox</h2>
+    <h2>4. Grid</h2>
+    <p>
+        please use these examples as
+        jnwnf;ljenf;lqnf;qwefn;d
+        LENDFCLnf;qlkn;M
+    </p>        
+
+    <div id="container">
+        <div>item 1</div>
+        <div>item 1</div>
+        <div>item 1</div>
+        <div>item 1</div>
+        <div>item 1</div>
+        <div>item 1</div>
+        <div>item 1</div>
+        <div>item 1</div>
+        <div>item 1</div>
+        <div>item 1</div>
+        <div>item 1</div>
+        <div>item 1</div>
+    </div>
+    <br />
+    <div id="grid">
+        <div class="grid-item">item</div>
+        <div class="grid-item">item</div>
+        <div class="grid-item">item</div>
+        <div class="grid-item">item</div>
+        <div class="grid-item">item</div>
+        <div class="grid-item">item</div>
+        <div class="grid-item">item</div>
+        <div class="grid-item">item</div>
+        <div class="grid-item">item</div>
+        <div class="grid-item">item</div>
+        <div class="grid-item">item</div>
+        <div class="grid-item">item</div>
+
+    </div>
+
+
+</body>
+</html>
